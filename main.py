@@ -9,9 +9,6 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 clock = pygame.time.Clock()
 running = True
 
-text_surface = pygame.Rect(0, 0, 200, 60)
-text_surface.center = (WIDTH // 2, 600)
-
 while running:
     screen.fill("White")
 
